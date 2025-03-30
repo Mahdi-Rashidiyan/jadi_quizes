@@ -29,11 +29,9 @@ if 1 <= n and n <= 20 and x >= 1 and x <= 1000:
     for _ in range(n):
         if x % 2 != 0:
             x = x * 2 - 1
-            print(x)
         elif x % 2 == 0:
             x = x // 2
-            print(x)
-    print("the last number is your goal")
+    print(f"the last number is your {x}")
 else:
     print("you choose wrong number")
 
